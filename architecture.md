@@ -9,8 +9,8 @@ Jenkins Agent is a machine that performs tasks like running scripts, executing t
 
 There are two main types of agents:
 
-Permanent Agents: These are always ready and connected to Jenkins. They’re like dedicated workers who are always on standby.
-Ephemeral Agents: These are temporary. Jenkins starts them only when needed, usually in the cloud or using tools like Docker. When the job is done, they’re shut down.
+- Permanent Agents: These are always ready and connected to Jenkins. They’re like dedicated workers who are always on standby.
+- Ephemeral Agents: These are temporary. Jenkins starts them only when needed, usually in the cloud or using tools like Docker. When the job is done, they’re shut down.
 jenkins_master
 ### 3. Jenkins Node
 A Jenkins Node is a term that is used in Jenkins 2.0 to mean any system that can run Jenkins jobs. This is mainly used in Controllers and Agents and sometimes used instead of those terms. A node is a machine that Jenkins uses to run jobs like building and testing projects. If a node isn’t performing well or its health drops below a certain threshold level, Jenkins will take that node offline to prevent any problems.

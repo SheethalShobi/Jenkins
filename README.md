@@ -1,1 +1,1 @@
-Notes about Jenkins
+This repository contains my notes about Jenkins

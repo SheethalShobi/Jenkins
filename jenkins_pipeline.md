@@ -1,3 +1,6 @@
+#### A Jenkinsfile is a text file that is written using Groovy syntax for defining Continuous Integration and Continuous Deployment (CI/CD) pipeline as Code. It supports versioning, reviewing and collaborating, automating the build, test and deployment process within Jenkins.
+
+----
 pipeline {
    agent any
    stages {
